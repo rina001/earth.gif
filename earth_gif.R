@@ -1,3 +1,4 @@
+Note: reference is from https://jeroen.github.io/images/earth.gif
 earth <- image_read("https://jeroen.github.io/images/earth.gif") %>%
   image_scale("200x") %>%
   image_quantize(128)
